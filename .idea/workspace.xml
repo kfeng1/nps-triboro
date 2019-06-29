@@ -3,6 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="39d5b566-86cf-475a-bcff-e221e4659280" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../event-calculator/public/debug.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-frontend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-frontend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-frontend/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-frontend/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-frontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-frontend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-frontend/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-frontend/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-frontend/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-frontend/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-frontend/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-frontend/src/components/Contact.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-frontend/src/components/ContactTable.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-frontend/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -14,44 +30,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contact-frontend/src/App.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contact-frontend/src/components/Contact.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contact-frontend/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/contact-frontend/src/components/ContactTable.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -78,7 +57,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="93" />
+    <option name="x" value="40" />
     <option name="y" value="23" />
     <option name="width" value="1400" />
     <option name="height" value="735" />
@@ -97,37 +76,6 @@
               <item name="contact-priority" type="b2602c69:ProjectViewProjectNode" />
               <item name="contact-priority" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="contact-priority" type="b2602c69:ProjectViewProjectNode" />
-              <item name="contact-priority" type="462c0819:PsiDirectoryNode" />
-              <item name="contact-frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="contact-priority" type="b2602c69:ProjectViewProjectNode" />
-              <item name="contact-priority" type="462c0819:PsiDirectoryNode" />
-              <item name="contact-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="contact-priority" type="b2602c69:ProjectViewProjectNode" />
-              <item name="contact-priority" type="462c0819:PsiDirectoryNode" />
-              <item name="contact-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="contact-priority" type="b2602c69:ProjectViewProjectNode" />
-              <item name="contact-priority" type="462c0819:PsiDirectoryNode" />
-              <item name="contact-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="contact-priority" type="b2602c69:ProjectViewProjectNode" />
-              <item name="contact-priority" type="462c0819:PsiDirectoryNode" />
-              <item name="contact-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -135,6 +83,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -165,16 +114,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561832032367</updated>
-      <workItem from="1561832033789" duration="4927000" />
+      <workItem from="1561832033789" duration="5426000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4927000" />
+    <option name="totallyTimeSpent" value="5426000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="93" y="23" width="1400" height="735" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
@@ -220,10 +168,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contact-frontend/public/index.html">
+    <entry file="file://$PROJECT_DIR$/contact-frontend/src/components/Contact.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact-frontend/src/components/ContactTable.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -234,17 +189,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contact-frontend/src/components/Contact.vue">
+    <entry file="file://$PROJECT_DIR$/contact-frontend/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact-frontend/src/components/ContactTable.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
