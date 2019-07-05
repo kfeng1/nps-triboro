@@ -1,5 +1,5 @@
 # NOTE: update this with your service name
-service: my-project
+service: contact-priority
 
 # Use the serverless-webpack plugin to transpile ES6
 plugins:
@@ -26,9 +26,9 @@ provider:
   #environment: ${file(env.yml):${self:provider.stage}}
 
 functions:
-  hello:
-    handler: handler.hello
+  getData:
+    handler: utils/getData.getData
     events:
       - http:
-          path: hello
+          path: getData
           method: get
