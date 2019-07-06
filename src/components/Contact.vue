@@ -16,10 +16,10 @@
             {{contactInfo.nextContact==null?"Not Set":formatDate.nextContact}}
         </td>
         <td>
-            {{contactInfo.contactPriority}}
+            {{contact.custom.priority}}
         </td>
         <td>
-            {{contactInfo.contactCount}}
+            {{contact.custom.contact_count==null?0:contact.custom.contact_count}}
         </td>
         <button class="button is-primary" @click="contacted">
             Contacted

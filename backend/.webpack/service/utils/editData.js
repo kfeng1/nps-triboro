@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./utils/getData.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./utils/editData.js");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2459,31 +2459,28 @@ module.exports = {"_from":"axios@^0.19.0","_id":"axios@0.19.0","_inBundle":false
 
 /***/ }),
 
-/***/ "./utils/getData.js":
-/*!**************************!*\
-  !*** ./utils/getData.js ***!
-  \**************************/
+/***/ "./utils/editData.js":
+/*!***************************!*\
+  !*** ./utils/editData.js ***!
+  \***************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 const axios = __webpack_require__(/*! axios */ "../node_modules/axios/index.js");
-const util = __webpack_require__(/*! util */ "util");
-
-module.exports.getData = (event, context, callback) => {
+module.exports.editData = (event, context, callback) => {
     let config = {
-        headers: { 'Authorization': "bearer " + '0R7-U9bSZHr7z6EF4jBMHb-yCgWGZGfKvzPg6BvoCdK2s' },
-        params: {
-            //limit: 1000000
-        }
+        headers: { 'Authorization': "bearer " + '0R7-U9bSZHr7z6EF4jBMHb-yCgWGZGfKvzPg6BvoCdK2s' }
     };
-    axios.get('https://api.salesflare.com/contacts', config).then(resp => {
-        const response = {
-            statusCode: 200,
-            body: JSON.stringify({
-                contacts: resp.data
-            })
-        };
-        callback(null, response);
+
+    const todo_id = event.pathParameters.id;
+    const body = JSON.parse(event.body);
+    const test = "id for this was " + todo_id;
+    return callback(null, {
+        statusCode: 200,
+        body: JSON.stringify({
+            contact: body,
+            id: todo_id
+        })
     });
 };
 
@@ -2566,17 +2563,6 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ "util":
-/*!***********************!*\
-  !*** external "util" ***!
-  \***********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("util");
-
-/***/ }),
-
 /***/ "zlib":
 /*!***********************!*\
   !*** external "zlib" ***!
@@ -2589,4 +2575,4 @@ module.exports = require("zlib");
 /***/ })
 
 /******/ })));
-//# sourceMappingURL=getData.js.map
+//# sourceMappingURL=editData.js.map

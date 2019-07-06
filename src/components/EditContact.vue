@@ -6,7 +6,7 @@
                 <h1 class="title is-3" style="text-align: center;"> Edit Contact </h1>
                 <div class="control">
                     Contact Priority (1-5)
-                    <select class = "select" v-model="info.contactPriority">
+                    <select class = "select" v-model="newInfo.contactPriority">
                         <option value="1">  1 </option>
                         <option value="2"> 2 </option>
                         <option value="3"> 3 </option>
@@ -17,17 +17,17 @@
                 <br>
                 <div class="control">
                     Last Contact Date
-                    <input class="input" type="date" placeholder="Last Contact Date"  v-model="info.lastContact">
+                    <input class="input" type="date" placeholder="Last Contact Date"  v-model="newInfo.lastContact">
                 </div>
                 <br>
                 <div class="control">
                     Next Contact Date
-                    <input class="input" type="date" placeholder="Next Contact Date" v-model="info.nextContact">
+                    <input class="input" type="date" placeholder="Next Contact Date" v-model="newInfo.nextContact">
                 </div>
                 <br>
                 <div class="control">
                     Contact Count
-                    <input class="input" type="text" placeholder="Contact Count" v-model="info.contactCount">
+                    <input class="input" type="text" placeholder="Contact Count" v-model="newInfo.contactCount">
                 </div>
 
 
@@ -45,12 +45,18 @@
         data(){
             return{
 
-                /***newInfo: {
+
+            }
+        },
+        computed:{
+            newInfo(){
+                return{
                     lastContact: this.info.lastContact,
                     nextContact: this.info.nextContact,
                     contactPriority: this.info.contactPriority,
                     contactCount: this.info.contactCount
-                }**/
+                }
+
             }
         },
         methods: {
@@ -58,7 +64,7 @@
                 this.$parent.$emit('close');
             },
             savePost: function () {
-                this.$parent.$emit('edit', this.info)
+                this.$parent.$emit('edit', this.newInfo)
                 this.close();
             }
         }

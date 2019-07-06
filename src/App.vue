@@ -7,10 +7,11 @@
 <script>
 import ContactTable from './components/ContactTable.vue'
 
+
 export default {
   name: 'app',
   components: {
-    ContactTable
+    ContactTable,
   }
 }
 </script>

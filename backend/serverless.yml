@@ -26,9 +26,17 @@ provider:
   #environment: ${file(env.yml):${self:provider.stage}}
 
 functions:
-  getData:
+  getContacts:
     handler: utils/getData.getData
     events:
       - http:
-          path: getData
+          path: contacts
           method: get
+
+  editContact:
+    handler: utils/editData.editData
+    events:
+      - http:
+          path: contacts/{id}
+          method: post
+
