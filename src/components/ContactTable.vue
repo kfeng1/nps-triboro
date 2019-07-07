@@ -1,5 +1,17 @@
 <template>
     <div>
+        <div class="inline">
+            <a class="button" @click="prevPage()" :class="{disabled:page==0}">
+                 <span class="icon is-small"><i class="fas fa-angle-left"></i></span>
+            </a>
+        </div>
+        <div class="inline">
+            <h1 class="title is-4 "> Page {{page}}</h1></div>
+        <div class="inline">
+            <a class="button " @click="nextPage()">
+                <span class="icon is-small"><i class="fas fa-angle-right"></i></span>
+            </a>
+        </div>
         <table class="table is-striped" id="myTable">
             <thead>
             <tr>
@@ -43,12 +55,11 @@
                 columns: [],
                 sortOrders: [1, 1, 1, 1, 1],
                 contacts: null,
+                page: 1
 
             }
         },
-        computed: {
-
-        },
+        computed: {},
         methods: {
             sortBy(index) {
                 this.sortKey = index;
@@ -67,18 +78,27 @@
                         console.log(resp);
                     })
             },
-            getRequest(){
-                axios.get('http://localhost:3000/contacts')
+            getRequest() {
+                let route = 'http://localhost:3000/contacts?limit=50&offset=' + (this.page-1) * 50;
+                axios.get(route)
                     .then((resp) => {
                         this.contacts = resp.data.contacts
                     })
+            },
+            nextPage(){
+                this.page++;
+                this.getRequest();
+            },
+            prevPage(){
+                this.page--;
+                this.getRequest();
             }
 
         },
         components: {
             Contact
         },
-        created(){
+        created() {
             this.getRequest();
             this.$on('change', (contact) => {
                 this.putRequest(contact);
@@ -121,6 +141,14 @@
         -ms-user-select: none;
         user-select: none;
     }
-
-
+    .inline {
+         display: inline-block;
+         padding: 1rem;
+    }
+    a.disabled {
+        pointer-events: none;
+        cursor: default;
+        color: grey;
+    }
 </style>
+

@@ -2472,10 +2472,9 @@ const util = __webpack_require__(/*! util */ "util");
 module.exports.getData = (event, context, callback) => {
     let config = {
         headers: { 'Authorization': "bearer " + '0R7-U9bSZHr7z6EF4jBMHb-yCgWGZGfKvzPg6BvoCdK2s' },
-        params: {
-            //limit: 1000000
-        }
+        params: event.queryStringParameters
     };
+    console.log(config);
     axios.get('https://api.salesflare.com/contacts', config).then(resp => {
         const response = {
             statusCode: 200,
