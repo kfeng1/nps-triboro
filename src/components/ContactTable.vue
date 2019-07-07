@@ -1,6 +1,5 @@
 <template>
     <div>
-        <button class="button" @click="putContact(0)">Test Put</button>
         <table class="table is-striped" id="myTable">
             <thead>
             <tr>
@@ -43,7 +42,7 @@
                 sortKey: '',
                 columns: [],
                 sortOrders: [1, 1, 1, 1, 1],
-                contacts: null
+                contacts: null,
 
             }
         },
@@ -55,36 +54,36 @@
                 this.sortKey = index;
                 Vue.set(this.sortOrders, index, this.sortOrders[index] * -1);
             },
-            putContact(index) {
-                let contact = this.contacts[index];
-                let id = this.contacts[index].id;
+            putRequest(contact) {
+                let id = contact.id;
                 let route = 'http://localhost:3000/contacts/' + id;
+                console.log(contact);
                 console.log(route);
-                axios.put(route, contact)
+                axios.post(route, {
+                    'id': contact.id,
+                    'custom': contact.custom
+                })
                     .then(resp => {
                         console.log(resp);
                     })
             },
+            getRequest(){
+                axios.get('http://localhost:3000/contacts')
+                    .then((resp) => {
+                        this.contacts = resp.data.contacts
+                    })
+            }
 
         },
         components: {
             Contact
         },
-        mounted() {
-
-            /**let config = {
-                headers: {'Authorization': "bearer " + '0R7-U9bSZHr7z6EF4jBMHb-yCgWGZGfKvzPg6BvoCdK2s'}
-            };
-             axios.get('https://api.salesflare.com/contacts', config)
-             .then((resp) => {
-                    this.contacts = resp.data;
-                });**/
-
-            axios.get('http://localhost:3000/contacts')
-                .then((resp) => {
-                    this.contacts = resp.data.contacts
-                })
-        }
+        created(){
+            this.getRequest();
+            this.$on('change', (contact) => {
+                this.putRequest(contact);
+            });
+        },
     }
 </script>
 

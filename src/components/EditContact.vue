@@ -6,7 +6,7 @@
                 <h1 class="title is-3" style="text-align: center;"> Edit Contact </h1>
                 <div class="control">
                     Contact Priority (1-5)
-                    <select class = "select" v-model="newInfo.contactPriority">
+                    <select class = "select" v-model="newInfo.priority">
                         <option value="1">  1 </option>
                         <option value="2"> 2 </option>
                         <option value="3"> 3 </option>
@@ -17,17 +17,17 @@
                 <br>
                 <div class="control">
                     Last Contact Date
-                    <input class="input" type="date" placeholder="Last Contact Date"  v-model="newInfo.lastContact">
+                    <input class="input" type="date" placeholder="Last Contact Date"  v-model="newInfo.last_contact_date">
                 </div>
                 <br>
                 <div class="control">
                     Next Contact Date
-                    <input class="input" type="date" placeholder="Next Contact Date" v-model="newInfo.nextContact">
+                    <input class="input" type="date" placeholder="Next Contact Date" v-model="newInfo.next_contact_date">
                 </div>
                 <br>
                 <div class="control">
                     Contact Count
-                    <input class="input" type="text" placeholder="Contact Count" v-model="newInfo.contactCount">
+                    <input class="input" type="text" placeholder="Contact Count" v-model="newInfo.contact_count">
                 </div>
 
 
@@ -41,24 +41,25 @@
 <script>
     import moment from 'moment';
     export default {
-        props: ['info'],
+        props: ['contact', 'funcs'],
         data(){
             return{
-
 
             }
         },
         computed:{
             newInfo(){
                 return{
-                    lastContact: this.info.lastContact,
-                    nextContact: this.info.nextContact,
-                    contactPriority: this.info.contactPriority,
-                    contactCount: this.info.contactCount
+                    last_contact_date: this.funcs.lc(),
+                    next_contact_date: this.funcs.nc(),
+                    priority: this.funcs.p(),
+                    contact_count: this.funcs.cc(),
                 }
 
-            }
+            },
+
         },
+
         methods: {
             close: function () {
                 this.$parent.$emit('close');
@@ -67,6 +68,7 @@
                 this.$parent.$emit('edit', this.newInfo)
                 this.close();
             }
+
         }
     }
 </script>
