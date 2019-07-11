@@ -3,7 +3,7 @@
         <div class="inline">
             <div class="control inline">
                 <label class="label" style="">Search Contacts or Tags: </label>
-                <input class="input" v-model="name" placeholder="Enter a Name/Tag">
+                <input class="input" v-model="search" placeholder="Enter a Name/Tag">
             </div>
             <div class="control inline">
                 <button class="button is-link" @click="page=1,getRequest()">Search</button>
@@ -17,7 +17,7 @@
         <div class="inline">
             <h1 class="title is-4 "> Page {{page}}</h1></div>
         <div class="inline">
-            <a class="button" @click="nextPage()" :class="{disabled:(!next||name!='')}">
+            <a class="button" @click="nextPage()" :class="{disabled:!next}">
                 <span class="icon is-small"><i class="fas fa-angle-right"></i></span>
             </a>
         </div>
@@ -79,14 +79,14 @@
                 contacts: "",
                 newPage: 1,
                 page: 1,
-                name: "",
+                search: "",
                 next: true
 
             }
         },
         watch:{
-            name: function(){
-                if(this.name ==""){
+            search: function(){
+                if(this.search ==""){
                     this.page = 1;
                     this.newPage=1;
                     this.getRequest()
@@ -113,34 +113,19 @@
                     })
             },
             getRequest() {
-                let route = 'http://localhost:3000/contacts?limit=50&offset=' + (this.page - 1) * 50;
-                let next = 'http://localhost:3000/contacts?limit=50&offset=' + (this.page) * 50;
-                let tagroute = route + '&tag.name=' + this.name;
-                let nexttag = next + '&tag.name=' + this.name;
-                if (this.name != "") {
-                    route += '&name=' + this.name;
-                    next += '&name=' + this.name;
-                }
+                let route = 'http://localhost:3000/contacts?limit=50&search='+this.search+'&offset='+(this.page - 1) * 50;
                 console.log(route);
                 axios.get(route)
                     .then((resp) => {
                         this.contacts = resp.data.contacts;
-                        if (this.contacts.length < 1) {
-                            (console.log('?'));
-                            axios.get(tagroute).then((resp) => {
-                                this.contacts = resp.data.contacts;
-                                next = nexttag;
-                            })
-                        }
-                    });
-                axios.get(next)
-                    .then((resp) => {
-                        if (resp.data.contacts.length < 1) {
+                        if (resp.data.contacts.length < 50) {
                             this.next = false;
                         }
-                        if (this.name == '') {
+                        else{
                             this.next = true;
                         }
+                        console.log(this.next);
+                        console.log(resp.data.contacts);
                     });
             },
 
