@@ -6,12 +6,13 @@
 const mongoose = require('mongoose');
 
 const userSchema = new mongoose.Schema({
-    email: String,
-    feedback: {
+    id: String,
+    reviews: [{
         ratings: [Number],
         comments: String,
-        bucket: String
-    },
+    }],
+    bucket: String,
+    issues: [Number],
     customer_id: String,
     deleted_at: Date,
     created_at: {
@@ -27,4 +28,4 @@ const userSchema = new mongoose.Schema({
     collection: 'users'
 });
 
-module.exports = mongoose.model('users', userSchema);
+module.exports = mongoose.model('schemas', userSchema);

@@ -60,7 +60,8 @@
             submit() {
                 axios.post(`${process.env.VUE_APP_API_ENDPOINT}/submit`, {
                     ratings: this.ratings,
-                    comments: this.comments
+                    comments: this.comments,
+                    id: 'test'
                 }).then((resp) => {
                     console.log(resp);
                     //some sort of thank you

@@ -1,29 +1,21 @@
 const mongoose = require('mongoose');
-const User = require('../users/User');
+const User = require('../schemas/User');
 
-module.exports.connect = async (event, context, callback) => {
-    context.callbackWaitsForEmptyEventLoop = false;
-    mongoose.connect(process.env.DB, {
-        useNewUrlParser: true
-    });
-    try {
-        await mongoose.connection;
-        const user = new User({
-            email: 'asippot@gmail.com',
-            feedback: {
-                ratings: [7, 9],
-                comments: "test",
-                bucket: "Good"
-            }
-        });
-        user.save((err) => {
-            if (err) console.log(err);
+module.exports = async () => {
+    return new Promise(async (resolve, reject) => {
+        //context.callbackWaitsForEmptyEventLoop = false;
+        mongoose.connect(process.env.DB, {
+            useNewUrlParser: true
         })
-        callback(null, {msg: 'done'})
-    } catch (err) {
-        if (err) console.log(err);
-        process.exit();
-    }
+        try {
+            await mongoose.connection;
+            resolve();
+        } catch (err) {
+            if (err) console.log(err);
+            process.exit();
+            reject();
+        }
+    })
 }
 
 

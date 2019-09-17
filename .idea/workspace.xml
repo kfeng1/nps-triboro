@@ -9,27 +9,11 @@
       <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../LICENSE.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../event-calculator/public/debug.css" beforeDir="false" afterPath="$PROJECT_DIR$/../event-calculator/public/debug.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/contact-priority.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.webpack/service/utils/editData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.webpack/service/utils/editData.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.webpack/service/utils/getData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.webpack/service/utils/getData.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/env.example" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/handler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/serverless.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/serverless.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/utils/editData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/utils/getData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contact.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ContactTable.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Question.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EditContact.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/users/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/schemas/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/utils/connect.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/utils/connect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FeedbackForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeedbackForm.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../aws-dotnet-rest-api-with-dynamodb/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../aws-dotnet-rest-api-with-dynamodb/DotNetServerless.sln" beforeDir="false" />
@@ -770,8 +754,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/backend/handler.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+            <state relative-caret-position="460">
+              <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -779,17 +763,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/utils/connect.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="17" selection-end-column="11" />
+            <state relative-caret-position="120">
+              <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/users/User.js">
+        <entry file="file://$PROJECT_DIR$/backend/schemas/User.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+            <state relative-caret-position="405">
+              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -820,8 +804,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/FeedbackForm.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="62" column="43" lean-forward="true" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="43" />
+            <state relative-caret-position="265">
+              <caret line="63" column="29" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#3;n#div#0;n#section#0;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -886,11 +870,12 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/backend/utils/response.js" />
         <option value="$PROJECT_DIR$/backend/users/User.js" />
-        <option value="$PROJECT_DIR$/src/components/FeedbackForm.vue" />
-        <option value="$PROJECT_DIR$/src/components/FeedbackForm.vue" />
         <option value="$PROJECT_DIR$/backend/serverless.yml" />
         <option value="$PROJECT_DIR$/backend/env.yml" />
         <option value="$PROJECT_DIR$/backend/utils/connect.js" />
+        <option value="$PROJECT_DIR$/backend/schemas/User.js" />
+        <option value="$PROJECT_DIR$/src/components/FeedbackForm.vue" />
+        <option value="$PROJECT_DIR$/src/components/FeedbackForm.vue" />
         <option value="$PROJECT_DIR$/backend/handler.js" />
       </list>
     </option>
@@ -923,7 +908,7 @@
               <item name="nps_triboro" type="b2602c69:ProjectViewProjectNode" />
               <item name="nps_triboro" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
+              <item name="schemas" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nps_triboro" type="b2602c69:ProjectViewProjectNode" />
@@ -1018,12 +1003,12 @@
       <workItem from="1568587229791" duration="469000" />
       <workItem from="1568612974662" duration="5949000" />
       <workItem from="1568669137537" duration="4829000" />
-      <workItem from="1568689290092" duration="2664000" />
+      <workItem from="1568689290092" duration="9132000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155849000" />
+    <option name="totallyTimeSpent" value="162317000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1146,17 +1131,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/FeedbackForm.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="62" column="43" lean-forward="true" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="43" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#3;n#div#0;n#section#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/env.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1197,24 +1171,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/users/User.js">
+    <entry file="file://$PROJECT_DIR$/src/components/FeedbackForm.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+        <state relative-caret-position="265">
+          <caret line="63" column="29" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#3;n#div#0;n#section#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/schemas/User.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/utils/connect.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="17" selection-end-column="11" />
+        <state relative-caret-position="120">
+          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/handler.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        <state relative-caret-position="460">
+          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
         </state>
       </provider>
     </entry>
