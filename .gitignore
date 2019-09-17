@@ -4,3 +4,11 @@ jspm_packages
 
 # Serverless directories
 .serverless
+
+notes.md
+
+#Env
+.env
+env.yml
+
+test.js

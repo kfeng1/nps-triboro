@@ -2,14 +2,759 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39d5b566-86cf-475a-bcff-e221e4659280" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../event-calculator/public/debug.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cs61c/lab00/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab00/answers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab00/copy_git.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab00/first_set.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event-calculator/public/debug.css" beforeDir="false" afterPath="$PROJECT_DIR$/../event-calculator/public/debug.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/contact-priority.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.webpack/service/utils/getData.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.webpack/service/utils/getData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.webpack/service/utils/getData.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.webpack/service/utils/getData.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.webpack/service/utils/editData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.webpack/service/utils/editData.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.webpack/service/utils/getData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.webpack/service/utils/getData.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/handler.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/utils/getData.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/utils/getData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ContactTable.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactTable.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/serverless.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/serverless.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/utils/editData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/utils/getData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contact.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ContactTable.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Question.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/EditContact.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-dotnet-rest-api-with-dynamodb/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-dotnet-rest-api-with-dynamodb/DotNetServerless.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-dotnet-rest-api-with-dynamodb/README.MD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-dotnet-rest-api-with-dynamodb/src/DotNetServerless.Application/DotNetServerless.Application.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-dotnet-rest-api-with-dynamodb/src/DotNetServerless.Application/Entities/Item.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-dotnet-rest-api-with-dynamodb/src/DotNetServerless.Application/Handlers/CreateItemHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-dotnet-rest-api-with-dynamodb/src/DotNetServerless.Application/Handlers/GetItemHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-dotnet-rest-api-with-dynamodb/src/DotNetServerless.Application/Handlers/UpdateItemHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-dotnet-rest-api-with-dynamodb/src/DotNetServerless.Application/Infrastructure/AWSClientFactory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-dotnet-rest-api-with-dynamodb/src/DotNetServerless.Application/Infrastructure/Configs/AwsBasicConfiguration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-dotnet-rest-api-with-dynamodb/src/DotNetServerless.Application/Infrastructure/Configs/DynamoDbConfiguration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-dotnet-rest-api-with-dynamodb/src/DotNetServerless.Application/Infrastructure/Repositories/IItemRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-dotnet-rest-api-with-dynamodb/src/DotNetServerless.Application/Infrastructure/Repositories/ItemDynamoRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-dotnet-rest-api-with-dynamodb/src/DotNetServerless.Application/Requests/CreateItemRequest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-dotnet-rest-api-with-dynamodb/src/DotNetServerless.Application/Requests/GetItemRequest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-dotnet-rest-api-with-dynamodb/src/DotNetServerless.Application/Requests/UpdateItemRequest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-dotnet-rest-api-with-dynamodb/src/DotNetServerless.Application/Responses/ItemResponse.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-dotnet-rest-api-with-dynamodb/src/DotNetServerless.Lambda/DotNetServerless.Lambda.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-dotnet-rest-api-with-dynamodb/src/DotNetServerless.Lambda/Extensions/ServicesExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-dotnet-rest-api-with-dynamodb/src/DotNetServerless.Lambda/Functions/CreateItemFunction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-dotnet-rest-api-with-dynamodb/src/DotNetServerless.Lambda/Functions/GetItemFunction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-dotnet-rest-api-with-dynamodb/src/DotNetServerless.Lambda/Functions/UpdateItemFunction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-dotnet-rest-api-with-dynamodb/src/DotNetServerless.Lambda/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-dotnet-rest-api-with-dynamodb/src/DotNetServerless.Lambda/Startup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-dotnet-rest-api-with-dynamodb/src/DotNetServerless.Lambda/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-dotnet-rest-api-with-dynamodb/src/DotNetServerless.Lambda/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-dotnet-rest-api-with-dynamodb/src/DotNetServerless.Lambda/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-dotnet-rest-api-with-dynamodb/tests/DotNetServerless.Tests/DotNetServerless.Tests.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-dotnet-rest-api-with-dynamodb/tests/DotNetServerless.Tests/Functions/CreateItemFunctionTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-dotnet-rest-api-with-dynamodb/tests/DotNetServerless.Tests/Functions/GetItemFunctionTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-dotnet-rest-api-with-dynamodb/tests/DotNetServerless.Tests/Functions/UpdateItemFunctionTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-ffmpeg-layer/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-ffmpeg-layer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-ffmpeg-layer/build.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-ffmpeg-layer/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-ffmpeg-layer/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-ffmpeg-layer/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-auth-examples/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-auth-examples/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-auth-examples/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-auth-examples/functions/auth/auth_suite_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-auth-examples/functions/auth/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-auth-examples/functions/auth/main_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-auth-examples/functions/auth2/auth_suite_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-auth-examples/functions/auth2/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-auth-examples/functions/auth2/main_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-auth-examples/functions/hello-world/hello_world_suite_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-auth-examples/functions/hello-world/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-auth-examples/functions/hello-world/main_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-auth-examples/functions/hello-world2/hello_world_suite_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-auth-examples/functions/hello-world2/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-auth-examples/functions/hello-world2/main_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-auth-examples/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-auth-examples/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-auth-examples/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-auth-examples/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-dynamo-stream-to-elasticsearch/Gopkg.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-dynamo-stream-to-elasticsearch/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-dynamo-stream-to-elasticsearch/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-dynamo-stream-to-elasticsearch/cmd/aws-golang-dynamo-stream-to-elasticsearch/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-dynamo-stream-to-elasticsearch/cmd/seed-dynamo/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-dynamo-stream-to-elasticsearch/docs/kibana.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-dynamo-stream-to-elasticsearch/docs/query.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-dynamo-stream-to-elasticsearch/dstream/details.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-dynamo-stream-to-elasticsearch/dstream/update.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-dynamo-stream-to-elasticsearch/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-dynamo-stream-to-elasticsearch/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-http-get-post/Gopkg.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-http-get-post/Gopkg.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-http-get-post/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-http-get-post/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-http-get-post/getFolder/getExample.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-http-get-post/getFolder/getQueryExample.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-http-get-post/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-http-get-post/postFolder/postExample.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-http-get-post/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-simple-http-endpoint/Gopkg.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-simple-http-endpoint/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-simple-http-endpoint/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-simple-http-endpoint/hello/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-simple-http-endpoint/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-simple-http-endpoint/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-simple-http-endpoint/world/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-stream-kinesis-to-elasticsearch/Gopkg.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-stream-kinesis-to-elasticsearch/Gopkg.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-stream-kinesis-to-elasticsearch/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-stream-kinesis-to-elasticsearch/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-stream-kinesis-to-elasticsearch/elastic/elastic.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-stream-kinesis-to-elasticsearch/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-stream-kinesis-to-elasticsearch/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-golang-stream-kinesis-to-elasticsearch/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-java-simple-http-endpoint/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-java-simple-http-endpoint/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-java-simple-http-endpoint/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-java-simple-http-endpoint/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-java-simple-http-endpoint/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-java-simple-http-endpoint/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-java-simple-http-endpoint/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-java-simple-http-endpoint/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-java-simple-http-endpoint/src/main/java/com/serverless/ApiGatewayResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-java-simple-http-endpoint/src/main/java/com/serverless/Handler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-java-simple-http-endpoint/src/main/java/com/serverless/Response.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-java-simple-http-endpoint/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-multiple-runtime/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-multiple-runtime/api/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-multiple-runtime/api/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-multiple-runtime/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-multiple-runtime/web/handler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-alexa-skill/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-alexa-skill/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-alexa-skill/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-alexa-skill/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-alexa-skill/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-auth0-cognito-custom-authorizers-api/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-auth0-cognito-custom-authorizers-api/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-auth0-cognito-custom-authorizers-api/auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-auth0-cognito-custom-authorizers-api/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-auth0-cognito-custom-authorizers-api/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-auth0-cognito-custom-authorizers-api/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-auth0-custom-authorizers-api/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-auth0-custom-authorizers-api/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-auth0-custom-authorizers-api/frontend/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-auth0-custom-authorizers-api/frontend/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-auth0-custom-authorizers-api/frontend/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-auth0-custom-authorizers-api/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-auth0-custom-authorizers-api/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-auth0-custom-authorizers-api/public_key-example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-auth0-custom-authorizers-api/secrets.example.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-auth0-custom-authorizers-api/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-auth0-custom-authorizers-api/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-dynamic-image-resizer/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-dynamic-image-resizer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-dynamic-image-resizer/config/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-dynamic-image-resizer/config/pull-secret.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-dynamic-image-resizer/config/push-secret.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-dynamic-image-resizer/deploy.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-dynamic-image-resizer/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-dynamic-image-resizer/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-dynamic-image-resizer/secrets/secrets.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-dynamic-image-resizer/secrets/secrets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-dynamic-image-resizer/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-dynamic-image-resizer/src/handlers/resizer/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-dynamic-image-resizer/src/handlers/resizer/resizeHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-dynamic-image-resizer/src/handlers/resizer/s3Handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-dynamic-image-resizer/src/lib/BaseHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-dynamic-image-resizer/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-dynamic-image-resizer/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-dynamodb-backup/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-dynamodb-backup/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-dynamodb-backup/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-dynamodb-backup/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-env-variables-encrypted-in-a-file/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-env-variables-encrypted-in-a-file/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-env-variables-encrypted-in-a-file/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-env-variables-encrypted-in-a-file/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-env-variables-encrypted-in-a-file/secrets.dev.yml.encrypted" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-env-variables-encrypted-in-a-file/secrets.prod.yml.encrypted" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-env-variables-encrypted-in-a-file/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-env-variables/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-env-variables/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-env-variables/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-env-variables/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-env-variables/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-fetch-file-and-store-in-s3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-fetch-file-and-store-in-s3/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-fetch-file-and-store-in-s3/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-fetch-file-and-store-in-s3/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-fetch-file-and-store-in-s3/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-fetch-file-and-store-in-s3/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-fullstack/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-fullstack/backend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-fullstack/backend/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-fullstack/backend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-fullstack/backend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-fullstack/backend/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-fullstack/backend/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-fullstack/frontend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-fullstack/frontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-fullstack/frontend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-fullstack/frontend/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-fullstack/frontend/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-fullstack/frontend/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-fullstack/frontend/src/DemoApp.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-fullstack/frontend/src/DemoApp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-fullstack/frontend/src/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-fullstack/frontend/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-fullstack/frontend/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-fullstack/frontend/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-function-compiled-with-babel/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-function-compiled-with-babel/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-function-compiled-with-babel/createResponse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-function-compiled-with-babel/event.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-function-compiled-with-babel/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-function-compiled-with-babel/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-function-compiled-with-babel/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-github-check/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-github-check/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-github-check/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-github-check/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-github-check/libs/github-service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-github-check/libs/response-lib.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-github-check/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-github-check/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-github-check/serverless.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-github-check/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-github-webhook-listener/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-github-webhook-listener/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-github-webhook-listener/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-github-webhook-listener/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-github-webhook-listener/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-and-rds/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-and-rds/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-and-rds/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-and-rds/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-and-rds/resolver/Common/aurora.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-and-rds/resolver/Common/mysql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-and-rds/resolver/Common/postgresql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-and-rds/resolver/Mutation/aurora_createUser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-and-rds/resolver/Mutation/mysql_createUser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-and-rds/resolver/Mutation/postgresql_createUser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-and-rds/resolver/Query/aurora_getUser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-and-rds/resolver/Query/mysql_getUser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-and-rds/resolver/Query/postgresql_getUser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-and-rds/resource/AuroraRDSCluster.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-and-rds/resource/AuroraRDSClusterParameter.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-and-rds/resource/AuroraRDSInstance.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-and-rds/resource/AuroraRDSInstanceParameter.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-and-rds/resource/LambdaRole.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-and-rds/resource/MySqlRDSInstance.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-and-rds/resource/PostgreSqlRDSInstance.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-and-rds/resource/RoutePublic.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-and-rds/resource/RouteTableAssociationSubnetA.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-and-rds/resource/RouteTableAssociationSubnetB.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-and-rds/resource/RouteTableAssociationSubnetC.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-and-rds/resource/RouteTablePublic.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-and-rds/resource/ServerlessInternetGateway.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-and-rds/resource/ServerlessSecurityGroup.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-and-rds/resource/ServerlessSubnetA.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-and-rds/resource/ServerlessSubnetB.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-and-rds/resource/ServerlessSubnetC.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-and-rds/resource/ServerlessSubnetGroup.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-and-rds/resource/ServerlessVPC.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-and-rds/resource/ServerlessVPCGA.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-and-rds/schema.gql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-and-rds/secrets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-and-rds/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-api-with-dynamodb/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-api-with-dynamodb/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-api-with-dynamodb/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-api-with-dynamodb/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-api-with-dynamodb/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-graphql-api-with-dynamodb/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-heroku-postgres/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-heroku-postgres/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-heroku-postgres/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-heroku-postgres/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-heroku-postgres/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-heroku-postgres/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-heroku-postgres/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-iot-event/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-iot-event/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-iot-event/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-iot-event/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-iot-event/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-mongodb-atlas/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-mongodb-atlas/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-mongodb-atlas/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-mongodb-atlas/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-mongodb-atlas/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-mongodb-atlas/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-mongodb-atlas/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-oauth-dropbox-api/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-oauth-dropbox-api/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-oauth-dropbox-api/config/default.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-oauth-dropbox-api/config/default_test.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-oauth-dropbox-api/config/stage.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-oauth-dropbox-api/config/stage_test.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-oauth-dropbox-api/dropbox/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-oauth-dropbox-api/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-oauth-dropbox-api/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-oauth-dropbox-api/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-oauth-dropbox-api/test/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-puppeteer/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-puppeteer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-puppeteer/chrome-script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-puppeteer/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-puppeteer/images/aws_limits.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-puppeteer/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-puppeteer/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-puppeteer/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-recursive-function/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-recursive-function/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-recursive-function/event.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-recursive-function/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-recursive-function/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-rekognition-analysis-s3-image/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-rekognition-analysis-s3-image/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-rekognition-analysis-s3-image/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-rekognition-analysis-s3-image/lib/imageAnalyser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-rekognition-analysis-s3-image/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-rekognition-analysis-s3-image/post.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-rekognition-analysis-s3-image/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-rest-api-mongodb/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-rest-api-mongodb/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-rest-api-mongodb/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-rest-api-mongodb/model/User.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-rest-api-mongodb/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-rest-api-mongodb/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-rest-api-with-dynamodb-and-offline/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-rest-api-with-dynamodb-and-offline/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-rest-api-with-dynamodb-and-offline/offline/migrations/todos.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-rest-api-with-dynamodb-and-offline/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-rest-api-with-dynamodb-and-offline/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-rest-api-with-dynamodb-and-offline/todos/create.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-rest-api-with-dynamodb-and-offline/todos/delete.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-rest-api-with-dynamodb-and-offline/todos/dynamodb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-rest-api-with-dynamodb-and-offline/todos/get.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-rest-api-with-dynamodb-and-offline/todos/list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-rest-api-with-dynamodb-and-offline/todos/update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-rest-api-with-dynamodb/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-rest-api-with-dynamodb/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-rest-api-with-dynamodb/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-rest-api-with-dynamodb/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-rest-api-with-dynamodb/todos/create.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-rest-api-with-dynamodb/todos/delete.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-rest-api-with-dynamodb/todos/get.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-rest-api-with-dynamodb/todos/list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-rest-api-with-dynamodb/todos/update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-s3-file-replicator/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-s3-file-replicator/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-s3-file-replicator/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-s3-file-replicator/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-s3-file-replicator/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-s3-file-replicator/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-scheduled-cron/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-scheduled-cron/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-scheduled-cron/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-scheduled-cron/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-scheduled-cron/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-scheduled-weather/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-scheduled-weather/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-scheduled-weather/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-scheduled-weather/lib/email.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-scheduled-weather/lib/forecast.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-scheduled-weather/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-scheduled-weather/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-serve-dynamic-html-via-http-endpoint/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-serve-dynamic-html-via-http-endpoint/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-serve-dynamic-html-via-http-endpoint/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-serve-dynamic-html-via-http-endpoint/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-serve-dynamic-html-via-http-endpoint/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-serverless-gong/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-serverless-gong/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-serverless-gong/node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-serverless-gong/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-serverless-gong/serverless-examples@0.0.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-serverless-gong/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-ses-receive-email-body/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-ses-receive-email-body/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-ses-receive-email-body/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-ses-receive-email-body/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-ses-receive-email-body/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-ses-receive-email-header/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-ses-receive-email-header/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-ses-receive-email-header/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-ses-receive-email-header/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-ses-receive-email-header/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-shared-gateway/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-shared-gateway/ci-decomission.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-shared-gateway/ci-deploy.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-shared-gateway/gateway/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-shared-gateway/gateway/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-shared-gateway/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-shared-gateway/products/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-shared-gateway/products/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-shared-gateway/products/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-shared-gateway/transactions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-shared-gateway/transactions/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-shared-gateway/transactions/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-shared-gateway/users/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-shared-gateway/users/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-shared-gateway/users/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-signed-uploads/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-signed-uploads/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-signed-uploads/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-signed-uploads/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-signed-uploads/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-signed-uploads/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-signed-uploads/src/upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-signed-uploads/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-signed-uploads/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-simple-http-endpoint/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-simple-http-endpoint/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-simple-http-endpoint/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-simple-http-endpoint/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-simple-http-endpoint/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-simple-transcribe-s3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-simple-transcribe-s3/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-simple-transcribe-s3/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-simple-transcribe-s3/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-simple-transcribe-s3/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-single-page-app-via-cloudfront/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-single-page-app-via-cloudfront/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-single-page-app-via-cloudfront/app/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-single-page-app-via-cloudfront/app/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-single-page-app-via-cloudfront/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-single-page-app-via-cloudfront/serverless-single-page-app-plugin/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-single-page-app-via-cloudfront/serverless-single-page-app-plugin/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-single-page-app-via-cloudfront/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-stripe-integration/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-stripe-integration/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-stripe-integration/config/default.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-stripe-integration/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-stripe-integration/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-stripe-integration/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-text-analysis-via-sns-post-processing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-text-analysis-via-sns-post-processing/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-text-analysis-via-sns-post-processing/addNote.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-text-analysis-via-sns-post-processing/analyzeNote.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-text-analysis-via-sns-post-processing/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-text-analysis-via-sns-post-processing/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-text-analysis-via-sns-post-processing/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-twilio-send-text-message/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-twilio-send-text-message/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-twilio-send-text-message/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-twilio-send-text-message/event.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-twilio-send-text-message/frontend/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-twilio-send-text-message/frontend/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-twilio-send-text-message/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-twilio-send-text-message/messenger.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-twilio-send-text-message/messenger.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-twilio-send-text-message/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-twilio-send-text-message/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-twitter-joke-bot/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-twitter-joke-bot/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-twitter-joke-bot/helpers/jokes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-twitter-joke-bot/helpers/twitter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-twitter-joke-bot/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-twitter-joke-bot/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-twitter-joke-bot/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-typescript-nest/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-typescript-nest/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-typescript-nest/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-typescript-nest/bench.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-typescript-nest/nest-cli.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-typescript-nest/nodemon-debug.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-typescript-nest/nodemon.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-typescript-nest/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-typescript-nest/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-typescript-nest/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-typescript-nest/src/app.controller.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-typescript-nest/src/app.controller.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-typescript-nest/src/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-typescript-nest/src/app.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-typescript-nest/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-typescript-nest/test/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-typescript-nest/test/jest-e2e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-typescript-nest/tsconfig.build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-typescript-nest/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-typescript-nest/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-typescript-nest/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-typescript-rest-api-with-dynamodb/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-typescript-rest-api-with-dynamodb/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-typescript-rest-api-with-dynamodb/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-typescript-rest-api-with-dynamodb/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-typescript-rest-api-with-dynamodb/todos/create.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-typescript-rest-api-with-dynamodb/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-typescript-rest-api-with-dynamodb/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-upload-to-s3-and-postprocess/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-upload-to-s3-and-postprocess/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-upload-to-s3-and-postprocess/frontend/index.template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-upload-to-s3-and-postprocess/generate-form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-upload-to-s3-and-postprocess/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-upload-to-s3-and-postprocess/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-upload-to-s3-and-postprocess/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-vue-nuxt-ssr/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-vue-nuxt-ssr/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-vue-nuxt-ssr/binaryMimeTypes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-vue-nuxt-ssr/client/components/navbar.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-vue-nuxt-ssr/client/layouts/default.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-vue-nuxt-ssr/client/pages/dogs/_breed.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-vue-nuxt-ssr/client/pages/dogs/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-vue-nuxt-ssr/client/pages/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-vue-nuxt-ssr/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-vue-nuxt-ssr/nuxt.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-vue-nuxt-ssr/nuxt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-vue-nuxt-ssr/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-vue-nuxt-ssr/secrets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-vue-nuxt-ssr/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-vue-nuxt-ssr/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-websockets-authorizers/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-websockets-authorizers/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-websockets-authorizers/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-node-websockets-authorizers/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-alexa-skill/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-alexa-skill/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-alexa-skill/handler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-alexa-skill/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-alexa-skill/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-auth0-custom-authorizers-api/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-auth0-custom-authorizers-api/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-auth0-custom-authorizers-api/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-auth0-custom-authorizers-api/frontend/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-auth0-custom-authorizers-api/frontend/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-auth0-custom-authorizers-api/frontend/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-auth0-custom-authorizers-api/lambda_handlers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-auth0-custom-authorizers-api/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-auth0-custom-authorizers-api/public_key-example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-auth0-custom-authorizers-api/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-auth0-custom-authorizers-api/secrets.example.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-auth0-custom-authorizers-api/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-line-echo-bot/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-line-echo-bot/handler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-line-echo-bot/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-line-echo-bot/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-line-echo-bot/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-line-echo-bot/setup.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-pynamodb-s3-sigurl/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-pynamodb-s3-sigurl/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-pynamodb-s3-sigurl/asset/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-pynamodb-s3-sigurl/asset/asset_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-pynamodb-s3-sigurl/asset/bucket.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-pynamodb-s3-sigurl/asset/create.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-pynamodb-s3-sigurl/asset/delete.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-pynamodb-s3-sigurl/asset/get.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-pynamodb-s3-sigurl/asset/list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-pynamodb-s3-sigurl/asset/update.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-pynamodb-s3-sigurl/log_cfg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-pynamodb-s3-sigurl/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-pynamodb-s3-sigurl/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-pynamodb-s3-sigurl/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-pynamodb-s3-sigurl/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-rest-api-with-dynamodb/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-rest-api-with-dynamodb/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-rest-api-with-dynamodb/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-rest-api-with-dynamodb/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-rest-api-with-dynamodb/todos/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-rest-api-with-dynamodb/todos/create.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-rest-api-with-dynamodb/todos/decimalencoder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-rest-api-with-dynamodb/todos/delete.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-rest-api-with-dynamodb/todos/get.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-rest-api-with-dynamodb/todos/list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-rest-api-with-dynamodb/todos/update.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-rest-api-with-faunadb/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-rest-api-with-faunadb/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-rest-api-with-faunadb/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-rest-api-with-faunadb/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-rest-api-with-faunadb/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-rest-api-with-faunadb/todos/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-rest-api-with-faunadb/todos/create.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-rest-api-with-faunadb/todos/delete.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-rest-api-with-faunadb/todos/get.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-rest-api-with-faunadb/todos/list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-rest-api-with-faunadb/todos/makeresult.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-rest-api-with-faunadb/todos/schema.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-rest-api-with-faunadb/todos/update.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-rest-api-with-pynamodb/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-rest-api-with-pynamodb/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-rest-api-with-pynamodb/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-rest-api-with-pynamodb/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-rest-api-with-pynamodb/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-rest-api-with-pynamodb/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-rest-api-with-pynamodb/todos/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-rest-api-with-pynamodb/todos/create.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-rest-api-with-pynamodb/todos/delete.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-rest-api-with-pynamodb/todos/get.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-rest-api-with-pynamodb/todos/list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-rest-api-with-pynamodb/todos/todo_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-rest-api-with-pynamodb/todos/update.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-scheduled-cron/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-scheduled-cron/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-scheduled-cron/handler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-scheduled-cron/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-scheduled-cron/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-simple-http-endpoint/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-simple-http-endpoint/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-simple-http-endpoint/handler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-simple-http-endpoint/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-simple-http-endpoint/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-telegram-bot/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-telegram-bot/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-telegram-bot/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-telegram-bot/handler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-telegram-bot/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-telegram-bot/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-python-telegram-bot/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-ruby-line-bot/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-ruby-line-bot/Gemfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-ruby-line-bot/Gemfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-ruby-line-bot/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-ruby-line-bot/handler.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-ruby-line-bot/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-ruby-line-bot/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-ruby-simple-http-endpoint/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-ruby-simple-http-endpoint/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-ruby-simple-http-endpoint/handler.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-ruby-simple-http-endpoint/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aws-ruby-simple-http-endpoint/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../azure-node-line-bot/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../azure-node-line-bot/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../azure-node-line-bot/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../azure-node-line-bot/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../azure-node-simple-http-endpoint/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../azure-node-simple-http-endpoint/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../azure-node-simple-http-endpoint/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../azure-node-simple-http-endpoint/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../azure-node-simple-http-endpoint/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../azure-node-telegram-bot/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../azure-node-telegram-bot/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../azure-node-telegram-bot/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../azure-node-telegram-bot/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../check-if-readme-is-up-to-date.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../community-examples.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cs61c/lab00/answers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../generate-readme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../google-golang-simple-http-endpoint/.gcloudignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../google-golang-simple-http-endpoint/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../google-golang-simple-http-endpoint/hello.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../google-golang-simple-http-endpoint/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../google-golang-simple-http-endpoint/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../google-node-simple-http-endpoint/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../google-node-simple-http-endpoint/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../google-node-simple-http-endpoint/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../google-node-simple-http-endpoint/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../google-node-typescript-http-endpoint/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../google-node-typescript-http-endpoint/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../google-node-typescript-http-endpoint/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../google-node-typescript-http-endpoint/src/App.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../google-node-typescript-http-endpoint/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../google-python-simple-http-endpoint/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../google-python-simple-http-endpoint/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../google-python-simple-http-endpoint/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../google-python-simple-http-endpoint/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../google-python-simple-http-endpoint/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kubeless-python-simple-function/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kubeless-python-simple-function/handler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kubeless-python-simple-function/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kubeless-python-simple-function/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kubeless-python-simple-scheduled-function/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kubeless-python-simple-scheduled-function/handler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kubeless-python-simple-scheduled-function/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kubeless-python-simple-scheduled-function/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-go-simple/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-go-simple/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-go-simple/handler.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-go-simple/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-go-simple/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-node-and-docker-chaining-functions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-node-and-docker-chaining-functions/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-node-and-docker-chaining-functions/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-node-and-docker-chaining-functions/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-node-and-docker-chaining-functions/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-node-chaining-functions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-node-chaining-functions/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-node-chaining-functions/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-node-chaining-functions/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-node-chaining-functions/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-node-chaining-functions/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-node-scheduled-cron/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-node-scheduled-cron/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-node-scheduled-cron/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-node-scheduled-cron/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-node-scheduled-cron/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-node-simple-http-endpoint/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-node-simple-http-endpoint/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-node-simple-http-endpoint/handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-node-simple-http-endpoint/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-node-simple-http-endpoint/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-node-simple/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-node-simple/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-node-simple/delay.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-node-simple/hello_world.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-node-simple/left_pad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-node-simple/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-node-simple/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-php-simple/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-php-simple/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-php-simple/handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-php-simple/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-php-simple/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-python-scheduled-cron/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-python-scheduled-cron/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-python-scheduled-cron/handler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-python-scheduled-cron/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-python-scheduled-cron/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-python-simple-http-endpoint/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-python-simple-http-endpoint/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-python-simple-http-endpoint/handler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-python-simple-http-endpoint/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-python-simple-http-endpoint/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-python-simple/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-python-simple/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-python-simple/handler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-python-simple/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-python-simple/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-ruby-simple/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-ruby-simple/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-ruby-simple/handler.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-ruby-simple/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-ruby-simple/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-swift-precompiled-binaries/Package.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-swift-precompiled-binaries/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-swift-precompiled-binaries/Sources/hello/main.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-swift-precompiled-binaries/Sources/welcome/main.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-swift-precompiled-binaries/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-swift-precompiled-binaries/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-swift-scheduled-cron/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-swift-scheduled-cron/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-swift-scheduled-cron/handler.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-swift-scheduled-cron/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-swift-scheduled-cron/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-swift-simple-http-endpoint/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-swift-simple-http-endpoint/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-swift-simple-http-endpoint/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-swift-simple-http-endpoint/ping.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-swift-simple-http-endpoint/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-swift-simple/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-swift-simple/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-swift-simple/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-swift-simple/ping.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../openwhisk-swift-simple/serverless.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yarn.lock" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,96 +767,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Contact.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" selection-start-column="10" selection-end-column="10" />
-              <folding>
-                <element signature="n#style#0;n#td#0;n#tr#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#1;n#tr#0;n#template#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/EditContact.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" selection-start-column="10" selection-end-column="10" />
-              <folding>
-                <element signature="n#style#0;n#h1#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/ContactTable.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-              <folding>
-                <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/serverless.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/utils/editData.js">
+        <entry file="file://$PROJECT_DIR$/backend/handler.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/utils/getData.js">
+        <entry file="file://$PROJECT_DIR$/backend/utils/connect.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="601">
-              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="150">
+              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="17" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/users/User.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/utils/response.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Question.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#article#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#span#0;n#article#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#1;n#span#0;n#article#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/FeedbackForm.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="568">
+              <caret line="62" column="43" lean-forward="true" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="43" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#3;n#div#0;n#section#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/env.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -125,6 +848,9 @@
       <find>length</find>
       <find>name</find>
       <find>next</find>
+      <find>ls-feature</find>
+      <find>tolower</find>
+      <find>tolowercase</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -142,8 +868,6 @@
         <option value="$PROJECT_DIR$/contact-backend/handler.js" />
         <option value="$PROJECT_DIR$/src/components/GridTest.vue" />
         <option value="$PROJECT_DIR$/src/components/SearchGrid.vue" />
-        <option value="$PROJECT_DIR$/src/App.vue" />
-        <option value="$PROJECT_DIR$/backend/serverless.yml" />
         <option value="$PROJECT_DIR$/src/components/EditContact.vue" />
         <option value="$PROJECT_DIR$/backend/utils/editData.js" />
         <option value="$PROJECT_DIR$/src/components/Contact.vue" />
@@ -151,13 +875,31 @@
         <option value="$USER_HOME$/Downloads/gkP6lY- (1)/main.js" />
         <option value="$PROJECT_DIR$/backend/utils/getData.js" />
         <option value="$PROJECT_DIR$/src/components/ContactTable.vue" />
+        <option value="$PROJECT_DIR$/src/App.vue" />
+        <option value="$PROJECT_DIR$/src/components/FeedbackForm.Vue" />
+        <option value="$PROJECT_DIR$/public/styles.css" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/src/components/Question.vue" />
+        <option value="$PROJECT_DIR$/notes.md" />
+        <option value="$PROJECT_DIR$/backend/env.example" />
+        <option value="$PROJECT_DIR$/backend/.gitignore" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/backend/utils/response.js" />
+        <option value="$PROJECT_DIR$/backend/users/User.js" />
+        <option value="$PROJECT_DIR$/src/components/FeedbackForm.vue" />
+        <option value="$PROJECT_DIR$/src/components/FeedbackForm.vue" />
+        <option value="$PROJECT_DIR$/backend/serverless.yml" />
+        <option value="$PROJECT_DIR$/backend/env.yml" />
+        <option value="$PROJECT_DIR$/backend/utils/connect.js" />
+        <option value="$PROJECT_DIR$/backend/handler.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="40" />
+    <option name="y" value="29" />
     <option name="width" value="1400" />
-    <option name="height" value="830" />
+    <option name="height" value="824" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -169,39 +911,40 @@
         <subPane>
           <expand>
             <path>
-              <item name="contact-priority" type="b2602c69:ProjectViewProjectNode" />
-              <item name="contact-priority" type="462c0819:PsiDirectoryNode" />
+              <item name="nps_triboro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nps_triboro" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="contact-priority" type="b2602c69:ProjectViewProjectNode" />
-              <item name="contact-priority" type="462c0819:PsiDirectoryNode" />
+              <item name="nps_triboro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nps_triboro" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="contact-priority" type="b2602c69:ProjectViewProjectNode" />
-              <item name="contact-priority" type="462c0819:PsiDirectoryNode" />
+              <item name="nps_triboro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nps_triboro" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="contact-priority" type="b2602c69:ProjectViewProjectNode" />
-              <item name="contact-priority" type="462c0819:PsiDirectoryNode" />
+              <item name="nps_triboro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nps_triboro" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="contact-priority" type="b2602c69:ProjectViewProjectNode" />
-              <item name="contact-priority" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="contact-priority" type="b2602c69:ProjectViewProjectNode" />
-              <item name="contact-priority" type="462c0819:PsiDirectoryNode" />
+              <item name="nps_triboro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nps_triboro" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="contact-priority" type="b2602c69:ProjectViewProjectNode" />
-              <item name="contact-priority" type="462c0819:PsiDirectoryNode" />
+              <item name="nps_triboro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nps_triboro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nps_triboro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nps_triboro" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -215,12 +958,20 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -245,29 +996,61 @@
       <option name="presentableId" value="Default" />
       <updated>1561832032367</updated>
       <workItem from="1561832033789" duration="5426000" />
-      <workItem from="1562720173288" duration="17027000" />
+      <workItem from="1562720173288" duration="18700000" />
+      <workItem from="1563391577307" duration="661000" />
+      <workItem from="1563490885181" duration="3068000" />
+      <workItem from="1563558687225" duration="349000" />
+      <workItem from="1563658696235" duration="1101000" />
+      <workItem from="1563774073954" duration="3189000" />
+      <workItem from="1565329684148" duration="268000" />
+      <workItem from="1565762461194" duration="621000" />
+      <workItem from="1566068639231" duration="212000" />
+      <workItem from="1566075962281" duration="4020000" />
+      <workItem from="1566977277429" duration="7000" />
+      <workItem from="1567204501895" duration="2005000" />
+      <workItem from="1568172565919" duration="2228000" />
+      <workItem from="1568175389231" duration="5442000" />
+      <workItem from="1568192482318" duration="5071000" />
+      <workItem from="1568243932670" duration="2861000" />
+      <workItem from="1568258932106" duration="3845000" />
+      <workItem from="1568283417578" duration="285000" />
+      <workItem from="1568537200964" duration="847000" />
+      <workItem from="1568587229791" duration="469000" />
+      <workItem from="1568612974662" duration="5949000" />
+      <workItem from="1568669137537" duration="4829000" />
+      <workItem from="1568689290092" duration="2664000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104185000" />
+    <option name="totallyTimeSpent" value="155849000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1400" height="830" extended-state="0" />
+    <frame x="40" y="29" width="1400" height="824" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="npm" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32972974" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329235" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33061224" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329235" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.329235" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -278,16 +1061,6 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/Contact.vue</url>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/hello-world/src/components/HelloWorld.vue" />
     <entry file="file://$PROJECT_DIR$/contact-frontend/serverless.yml" />
@@ -296,13 +1069,6 @@
     <entry file="file://$PROJECT_DIR$/contact-frontend/src/components/ContactTable.vue" />
     <entry file="file://$PROJECT_DIR$/contact-frontend/src/App.vue" />
     <entry file="file://$PROJECT_DIR$/contact-frontend/public/index.html" />
-    <entry file="file://$PROJECT_DIR$/backend/handler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -312,13 +1078,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/SearchGrid.vue" />
     <entry file="file://$PROJECT_DIR$/src/components/GridTest.vue" />
-    <entry file="file://$PROJECT_DIR$/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/gkP6lY- (1)/main.js" />
     <entry file="file://$PROJECT_DIR$/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -328,70 +1088,133 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
+    <entry file="file://$PROJECT_DIR$/backend/.webpack/service/utils/getData.js" />
+    <entry file="file://$PROJECT_DIR$/backend/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/.webpack/service/utils/editData.js" />
+    <entry file="file://$PROJECT_DIR$/backend/utils/editData.js" />
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        <state>
+          <caret selection-end-line="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/gkP6lY- (1)/main.js">
+    <entry file="file://$PROJECT_DIR$/backend/utils/getData.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/EditContact.vue" />
+    <entry file="file://$PROJECT_DIR$/src/components/Contact.vue" />
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        <state relative-caret-position="120">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env.yml" />
+    <entry file="file://$PROJECT_DIR$/backend/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/test.js" />
+    <entry file="file://$PROJECT_DIR$/backend/test.js" />
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notes.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="225">
+            <caret line="15" column="266" selection-start-line="15" selection-start-column="266" selection-end-line="15" selection-end-column="266" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/FeedbackForm.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="62" column="43" lean-forward="true" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#3;n#div#0;n#section#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/env.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/serverless.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        <state relative-caret-position="600">
+          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/utils/editData.js">
+    <entry file="file://$PROJECT_DIR$/public/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="11182" column="26" selection-start-line="11182" selection-start-column="26" selection-end-line="11182" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Question.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#article#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#span#0;n#article#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#span#0;n#article#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/utils/response.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/users/User.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/utils/connect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/handler.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/EditContact.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Contact.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#td#0;n#tr#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/utils/getData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ContactTable.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-          <folding>
-            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
         </state>
       </provider>
     </entry>
