@@ -3,17 +3,13 @@
  *
  * Defines what a goal is
  */
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 
 const userSchema = new mongoose.Schema({
     id: String,
-    reviews: [{
-        ratings: [Number],
-        comments: String,
-    }],
-    bucket: String,
-    issues: [Number],
-    customer_id: String,
+    goodReviews: Number,
+    okReviews: Number,
+    badReviews: Number,
     deleted_at: Date,
     created_at: {
         type: Date,
@@ -28,4 +24,4 @@ const userSchema = new mongoose.Schema({
     collection: 'users'
 });
 
-module.exports = mongoose.model('schemas', userSchema);
+export default mongoose.model('users', userSchema);

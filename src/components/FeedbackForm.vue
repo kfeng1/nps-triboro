@@ -7,12 +7,13 @@
                         Thank you for your business with Triboro!</h3>
                         <p class="content has-text-grey is-size-5">
                             We'd like to ask you a couple questions about your experience with us.
-                        </p></div>
+                        </p>
+                    </div>
                 </div>
                 <hr>
                 <br>
-                <div v-for="i in 2">
-                    <Question :questionData="questionData" :index="i-1"></Question>
+                <div v-for="(rating, index) in ratings">
+                    <Question :questionData="questionData" :index="index" :type="questionType[index]"></Question>
                     <br><br>
                 </div>
                 <hr>
@@ -44,32 +45,48 @@
     export default {
         data() {
             return {
+                id: "test2",
+                sent: false,
                 questionData: {
                     text: [
-                        "How likely are you to recommend Triboro to a friend?",
-                        "How would you rate your experience with Triboro's website and delivery services?"
+                        "Did you receive a confirmation call for your order?",
+                        "If you received delivery, how would you rate our service? (Leave blank if you did not receive delivery)",
+                        "How easy to use was our website?",
+                        "Were you able to find everything you were looking for?",
+
                     ],
-                    labels: ["likely", "good"],
+                    labels: [null, {left: "Not Good", right: "Very Good"}, {
+                        left: "Not Easy",
+                        right: "Very Easy"
+                    }, null],
+
 
                 },
-                ratings: [null, null],
+                questionType: ["yesNo", "0-10", "yesNo", "0-10"],
+                ratings: [null, null, null, null],  //confirmation, delivery, website, lookingFor,
                 comments: ""
             }
         },
         methods: {
             submit() {
-                axios.post(`${process.env.VUE_APP_API_ENDPOINT}/submit`, {
-                    ratings: this.ratings,
-                    comments: this.comments,
-                    id: 'test'
-                }).then((resp) => {
-                    console.log(resp);
-                    //some sort of thank you
-                }).catch((err) => {
-                    console.log(err);
-                    //error message
-                });
-            },
+                if (!this.sent) {
+                    axios.post(`${process.env.VUE_APP_API_ENDPOINT}/submit`, {
+                        id: this.id,
+                        ratings: this.ratings,
+                        comments: this.comments,
+
+                    }).then((resp) => {
+                        this.sent = true;
+                        console.log(resp);
+                        //router.push('/thank-you')
+                    }).catch((err) => {
+                        console.log(err);
+                        //error message
+                    });
+                }
+                console.log("already sent")//TODO: Make this something better/have a success/failure page after submit
+            }
+
 
         },
         components: {
